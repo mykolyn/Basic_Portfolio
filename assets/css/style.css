@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: ivory;
+    width: 100%;
+}
+
+.logo {
+    align-content: left;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f2d0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    z-index: 1000;
+    
+  }
+  
+  li {
+    float: right; 
+    font-size: 25px;
+    margin: 0px 0px 0px 12px;
+    border-left: 2px solid white;
+    text-align: center;
+
+ 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+
+  .aboutme {
+    margin: 200px 100px 0px 100px;
+    background-color: lightcyan;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .myname {
+    padding: 25px 0px 2px 10px;
+    
+  }
+.me {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+  h1 {
+    font-size: 54px;
+    font-weight: bold;
+    color: gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+  }
+
+  p {
+      padding: 10px;
+      margin: 10px;
+  }
+  .aboutme {
+
+    width: padding 20px;
+  }
+
+  .aboutmetxt{
+    border-top: 5px solid red;
+    padding: -10px;
+    margin: -10px;
+  }
+  .footer {
+      bottom: 0;
+      margin: 0;
+      height: 75px;
+      width: 100%;
+      background-color: honeydew;
+  }
